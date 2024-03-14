@@ -5,11 +5,11 @@ const Countries = () => {
         <div>
             <div className='countrycontainer'>
                 <div className='leftcontainer'>
-                    img
+                    <img className='leftimg' />
                 </div>
                 <div className='rightcontainer'>
                     <div className='country'>
-                        img
+                        <img className='countryimg' />
                         <span className='city'>city</span>
                         <a className='maplink'>View on Google Maps</a>
                     </div>
