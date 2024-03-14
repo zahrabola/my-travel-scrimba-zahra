@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 * {
   margin: 0px;
@@ -72,6 +70,10 @@ body {
 .countryimg{
   height: 13px;
   margin-top: 3px;
+}
+.title{
+  font-size: 18px;
+
 }
 .city{
   font-size: 13px;

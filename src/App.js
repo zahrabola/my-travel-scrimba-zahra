@@ -7,6 +7,17 @@ import placeholder from "./Images/placeholder.png"
 import Data from "./Data/Data";
 
 function App() {
+
+  const datatravel = Data.map(DataCountry)
+
+  function DataCountry(dataItems){
+    return (
+      <Countries
+    placeholder={placeholder}
+    details = {dataItems}
+    />
+    ) 
+  }
   return (
     <div className="App">
      <div className="appcontainer">
@@ -14,7 +25,7 @@ function App() {
         <Navbar img={world}/>
       </div>
       <div className="datawrapper">
-        <Countries />
+       {datatravel}
       </div>
 
      </div>
